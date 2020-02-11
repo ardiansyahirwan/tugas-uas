@@ -1,0 +1,91 @@
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: .75rem;
+  }
+  
+  body {
+    background: #2124bb;
+    background: linear-gradient(to right, rgb(110, 237, 241), rgb(19, 41, 139));
+  }
+
+  .col-lg-6 img {
+    width: 600px;
+    height: 400px;
+  }
+
+  .col-lg-6 h3 {
+    color: rgb(14, 26, 19);
+    font-family: nunito;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .card {
+    background-color: transparent;
+  }
+  
+  .card-signin {
+    border: 1px solid white;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.322);
+  }
+  
+  .card-signin .card-title {
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+  
+  .card-signin .card-body {
+    padding: 2rem;
+  }
+
+  .card-signin .card-body h5 {
+    font-family: Nunito, sans-serif;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .form .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+  }
+  
+  .baru input {
+    height: auto;
+    border-radius: 2rem;
+  }
+
+  .baru input {
+    padding: var(--input-padding-y) var(--input-padding-x);
+  }
+
+  
+  /* Fallback for Edge
+  -------------------------------------------------- */
+  
+  @supports (-ms-ime-align: auto) {
+    .form-label-group>label {
+      display: none;
+    }
+    .form-label-group input::-ms-input-placeholder {
+      color: #777;
+    }
+  }
+  
+  /* Fallback for IE
+  -------------------------------------------------- */
+  
+  @media all and (-ms-high-contrast: none),
+  (-ms-high-contrast: active) {
+    .form-label-group>label {
+      display: none;
+    }
+    .form-label-group input:-ms-input-placeholder {
+      color: #777;
+    }
+  }

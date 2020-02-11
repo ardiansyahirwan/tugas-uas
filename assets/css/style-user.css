@@ -1,0 +1,35 @@
+/* CSS UNTUK USER */
+
+.cover {
+   width: 100%;
+}
+
+h3 {
+   font-family: nunito, sans-serif;
+   font-weight: bold;
+}
+
+.container>h1{
+   font-family: Arial, sans-serif;
+   font-weight: bolder;
+   font-size: xxx-large;
+}
+
+.container> h1 >span {
+   font-family: Nunito, sans-serif;
+   font-weight: 60;
+}
+
+h3 {
+   font-family: Nunito, sans-serif;
+   font-weight: 60;
+}
+
+h3 > span {
+   font-family: Arial, sans-serif;
+   font-weight: 600;
+}
+
+.rata {
+   text-align: justify;
+}
